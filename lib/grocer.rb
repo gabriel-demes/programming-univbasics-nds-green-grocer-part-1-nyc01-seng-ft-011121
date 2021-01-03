@@ -5,7 +5,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each { |item|
     if item.has_value?(name)
       return item
-    end
+  
   }
   return nil
   end
